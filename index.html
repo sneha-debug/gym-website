@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url('img/Beautiful-girl-at-gym-wallpaper-background.jpg');
+        height: 1132px;
+        background-repeat: no-repeat;
+    }
+
+    .mid {
+        position: fixed;
+        left: 484px;
+        display: block;
+        width: 600px;
+        margin: auto;
+        top: -5px;
+    }
+
+    .left {
+        display: block;
+        width: 204px;
+        position: absolute;
+        left: 4px;
+
+    }
+
+    .left img {
+        height: 50px;
+        width: 92px;
+        filter: invert(5);
+        position: fixed;
+        top:2px;
+
+
+    }
+
+    .right {
+
+        display: inline-block;
+        width: 234px;
+        position: fixed;
+        right: -67px;
+        top: 9px;
+    }
+
+    .header {
+        color: aliceblue;
+    }
+
+    .nav li {
+        margin: -5px;
+        padding: 15px;
+        display: inline-block;
+        font-size: large;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: rgb(243, 237, 242);
+    }
+
+
+    a:hover {
+        color: rgb(119, 115, 116);
+        text-decoration: underline;
+
+    }
+
+
+    .text {
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        top: 60px;
+    }
+
+    .ab {
+        margin: 3px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: black;
+        color: azure;
+        font-family: 'Ubuntu', sans-serif;
+        border: solid grey 2px;
+    }
+
+    .ab:hover {
+        cursor: pointer;
+        background-color: rgb(95, 92, 92);
+    }
+
+    .container {
+        border: solid rgb(53, 50, 50) 4px;
+        border-radius: 10px;
+        margin: 300px 78px;
+        padding:78px;
+        width:33%;
+        
+    
+
+    }
+    .form input{
+        margin:auto;
+        padding:20px;
+        width:330px;
+        border-radius: 10px;
+
+    }
+    button{
+        width:330px;
+        margin:1px;
+        padding:20px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="left">
+                <img src="img/fitness.png" alt="logo">
+                <div class="text">Sneha's Fitness</div>
+
+            </div>
+
+            <div class="mid">
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Calculater</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+
+            <div class="right">
+
+
+                <input class="ab" type="button" value="Call us now">
+                <input class="ab" type="button" value="Email us">
+
+
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="form">
+            <input type="text" placeholder=" Name">
+            <input type="text" placeholder=" Gender">
+            <input type="text" placeholder=" Age ">
+            <input type="text" placeholder="Mobile no">
+            <input type="text" placeholder="Email address">
+        </div>
+        <button class="ab">Submit</button>
+    </div>
+
+</body>
+
+</html>
